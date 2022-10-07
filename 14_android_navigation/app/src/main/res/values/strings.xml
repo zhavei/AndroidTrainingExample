@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">belajar_fundamental_aplikasi_android_navigation</string>
+    <string name="hello_home_fragment">Hello Home Fragment</string>
+    <string name="home_to_category">home_to_category</string>
+    <string name="home_to_profile">Home_to_profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="category_fragment">category fragment</string>
+    <string name="catergory_lifestyle">catergory lifestyle</string>
+</resources>
