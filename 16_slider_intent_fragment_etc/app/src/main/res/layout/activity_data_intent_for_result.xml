@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityBringData.DataIntentActivityForResult">
+
+    <TextView
+        android:id="@+id/tv_data_intent_activity_forresult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="silahkan pilih salah satu aja"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_dataintentactivityforresult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/tv_data_intent_activity_forresult">
+
+        <RadioButton
+            android:id="@+id/rb_data_intent_activity_result1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50" />
+
+        <RadioButton
+            android:id="@+id/rb_data_intent_activity_result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100" />
+
+        <RadioButton
+            android:id="@+id/rb_data_intent_activity_result3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="150" />
+
+        <RadioButton
+            android:id="@+id/rb_data_intent_activity_result4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="200" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_data_intent_activity_result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="silahkan pilih inin"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/rg_dataintentactivityforresult" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

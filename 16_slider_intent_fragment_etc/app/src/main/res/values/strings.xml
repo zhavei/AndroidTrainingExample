@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">chapter5binartask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="learning">learning project</string>
+    <string name="sir_alex_ferguyson">sir alex ferguyson</string>
+    <string name="maurinho">maurinho</string>
+    <string name="carlo_enceloti">carlo enceloti</string>
+    <string name="eric_ten_haggo">eric ten haggo</string>
+</resources>

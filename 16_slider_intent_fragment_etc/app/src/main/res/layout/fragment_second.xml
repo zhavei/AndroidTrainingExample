@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentSecond"
+    android:background="#5EEEBA00"
+    tools:context=".SecondFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<ImageView
+                android:id="@+id/iv_secondfragm"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_launcher_foreground"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />-->
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv_second_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SecondFragment"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_secondfrag"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="enter your name"
+                android:padding="20dp"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_second_fragment" />
+
+            <Button
+                android:id="@+id/bt_secondfrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="submit name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_secondfrag" />
+
+            <Button
+                android:id="@+id/btn_secondfrag_todata_intent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="to activity data intent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bt_secondfrag" />
+
+            <Button
+                android:id="@+id/btn_secondfrag_todata_intent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="to activity data intent 2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_secondfrag_todata_intent" />
+
+            <Button
+                android:id="@+id/btn_secondfrag_todata_intent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to activity data intent 3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_secondfrag_todata_intent2" />
+
+            <Button
+                android:id="@+id/btn_secondfrag_todata_intent4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to activity data intent 4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_secondfrag_todata_intent3" />
+
+            <Button
+                android:id="@+id/btn_data_intent_activity_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="move result"
+                app:layout_constraintEnd_toEndOf="@+id/btn_secondfrag_todata_intent4"
+                app:layout_constraintStart_toStartOf="@+id/btn_secondfrag_todata_intent4"
+                app:layout_constraintTop_toBottomOf="@+id/btn_secondfrag_todata_intent4" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</FrameLayout>
